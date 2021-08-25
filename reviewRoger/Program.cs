@@ -31,14 +31,14 @@ namespace reviewRoger
             //Console.WriteLine(numbers[3]);
             //Console.WriteLine(numbers[4]);
 
-            for (int j = 9; j >= 0; j--)
+            for (int j = 1000; j >= 0; j--)
             {
                 Console.WriteLine(numbers[j]);
             }
 
-            bool whitLikesCandy = true;
+            bool likesCandy = true;
 
-            while (whitLikesCandy) //true
+            while (likesCandy) //true
             {
                 
                 Console.WriteLine("Whit likes candy yes or no?");
@@ -47,11 +47,11 @@ namespace reviewRoger
 
                 if(reply == "yes")
                 {
-                    whitLikesCandy = true;
+                    likesCandy = true;
                 }
                 else
                 {
-                    whitLikesCandy = false;
+                    likesCandy = false;
                 }
             }
 
