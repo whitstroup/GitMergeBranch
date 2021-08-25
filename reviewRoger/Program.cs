@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace reviewRoger
 {
@@ -10,6 +11,8 @@ namespace reviewRoger
         {
             Console.WriteLine("hello");
         }
+
+
         public static int Add(int x, int y)
         {
             return x + y;
@@ -20,7 +23,7 @@ namespace reviewRoger
             //loops
 
 
-            //var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             //Console.WriteLine(numbers[0]);
             //Console.WriteLine(numbers[1]);
@@ -28,13 +31,12 @@ namespace reviewRoger
             //Console.WriteLine(numbers[3]);
             //Console.WriteLine(numbers[4]);
 
-            //for (int j = 9; j >= 0; j--)
-            //{
-            //    Console.WriteLine( numbers[j] );
-            //}
+            for (int j = 9; j >= 0; j--)
+            {
+                Console.WriteLine(numbers[j]);
+            }
 
             bool whitLikesCandy = true;
-
 
             while (whitLikesCandy) //true
             {
@@ -51,23 +53,21 @@ namespace reviewRoger
                 {
                     whitLikesCandy = false;
                 }
-
             }
-
 
 
 
             do
             {
 
+
             } while (true);
 
-            //foreach (var item in collection)
-            //{
-
-            //}
-
-            
+            var numbs = new List<int>() { 1, 2, 3, 4, 5, 6 };
+            foreach (var item in numbs)
+            {
+                Console.WriteLine(item);
+            }
         }
 
 
